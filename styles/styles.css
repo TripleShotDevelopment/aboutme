@@ -83,6 +83,13 @@
   padding-bottom: 50px;
 }
 
+#rey-pic {
+  display: block;
+  margin: auto;
+  width: 25%;
+  border-radius: 50%;
+}
+
 #ss-one {
   display: block;
   width: 35%;
