@@ -116,6 +116,11 @@
           Such as...
         </h1>
       </div>
+      <div class="container fluid" id="intro-text">
+        <h2>
+          Basic Node.js and Database interaction...
+        </h2>
+      </div>
       <div class="container-fluid">
         <img src="images/appSS1.png" alt="screen shot one" class="img-fluid" id="ss-one">
       </div>
@@ -162,6 +167,43 @@
         <p>
           Retrieve saved blog posts from the database and display them. Of course each query is wrapped in 
           a try/catch block to catch any errors from the database connection.
+        </p>
+      </div>
+      <div class="container fluid" id="intro-text" style="padding-top: 200px; padding-bottom: 0px;">
+        <h2>
+          Authentication Examples...
+        </h2>
+      </div>
+      <div class="container-fluid" id="header-one">
+        <h1>
+          Password security... Kind of important, right?
+        </h1>
+      </div>
+      <div class="container-fluid">
+        <img src="images/appSS6.png" alt="screen shot five" class="img-fluid" id="ss-one">
+      </div>
+      <div class="container-fluid" id="body-text-no-indent">
+        <p>
+          I agree. And I take it seriously. Here you can see a registration post route using 
+          bcrypt and multiple (10 in this case) salt rounds to hash the password before account 
+          creation. This particular example also checks the registration email against a list of 
+          allowed users. This list is also protected inside of a .env file so the email addresses 
+          aren't in the code.
+        </p>
+      </div>
+      <div class="container-fluid" id="header-two">
+        <h1>
+          On the next visit we need to log the user in...
+        </h1>
+      </div>
+      <div class="container-fluid">
+        <img src="images/appSS5.png" alt="screen shot six" class="img-fluid" id="ss-two">
+      </div>
+      <div class="container-fluid" id="body-text-no-indent">
+        <p> 
+          Again we use bcrypt, specifically the 'compare' method, to check the user input 
+          against the hashed password stored in the database, or redirect to the register 
+          page if the user doesn't exist.
         </p>
       </div>
     </div>
