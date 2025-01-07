@@ -41,6 +41,14 @@
   bottom: 0px;
   text-align: center;
   color: gold;
+  width: 100%;
+}
+
+#footer-img {
+  display: inline;
+  height: 3rem;
+  width: 3rem;
+  padding: 10px;
 }
 
 #header-one {
