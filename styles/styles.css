@@ -39,6 +39,7 @@
   background-color: #212738;
   position: fixed;
   bottom: 0px;
+  padding-bottom: 0px;
   text-align: center;
   color: gold;
   width: 100%;
@@ -46,9 +47,11 @@
 
 #footer-img {
   display: inline;
-  height: 3rem;
-  width: 3rem;
+  height: 3.5rem;
+  width: 3.5rem;
   padding: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 #header-one {
